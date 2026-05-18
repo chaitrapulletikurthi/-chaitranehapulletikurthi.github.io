@@ -154,7 +154,7 @@
 
     /* CONTACT */
     .contact-section{ padding:48px 0 40px; }
-    .contact-inner{ display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; }
+    .contact-inner{ display:grid; grid-template-columns:1fr; gap:24px; align-items:start; }
     .contact-inner h2{ font-size:clamp(34px,4.5vw,54px); }
     .contact-right p{ font-size:17px; color:var(--muted); font-weight:300; line-height:1.75; margin-bottom:28px; }
 
@@ -631,8 +631,13 @@
 <section class="contact-section" id="contact">
   <div class="wrap">
     <div class="contact-inner">
-      <div><h2 class="reveal">Got a problem worth solving? Let's talk over coffee.</h2><div class="cheers-wrap">
-        <svg class="cheers-svg" width="180" height="125" viewBox="0 0 180 125">
+      <div><h2 class="reveal">Got a problem worth solving? Let's talk over coffee.</h2><div style="display:flex; align-items:flex-end; gap:32px; margin-top:20px; flex-wrap:wrap;">
+          <div class="btns" style="margin-top:0; margin-bottom:8px;">
+            <a class="btn filled" href="mailto:chaitrapulletikurthi@gmail.com" target="_blank">Email me</a>
+            <a class="btn" href="https://www.linkedin.com/in/chaitranehapulletikurthi" target="_blank">LinkedIn ↗</a>
+          </div>
+          <div class="cheers-wrap">
+        <svg class="cheers-svg" width="200" height="140" viewBox="0 0 180 125">
           <!-- CHEERS text -->
           <g class="kawaii-text">
             <text x="90" y="16" text-anchor="middle" font-family="DM Serif Display,serif" font-size="15" font-weight="bold" fill="#3d2010" letter-spacing="3">CHEERS!</text>
@@ -704,14 +709,9 @@
             <ellipse cx="144" cy="82" rx="5" ry="3" fill="#f0a0a0" opacity="0.5"/>
           </g>
         </svg>
-      </div></div>
-      <div class="contact-right reveal">
-        
-        <div class="btns">
-          <a class="btn filled" href="mailto:chaitrapulletikurthi@gmail.com" target="_blank">Email me</a>
-          <a class="btn" href="https://www.linkedin.com/in/chaitranehapulletikurthi" target="_blank">LinkedIn ↗</a>
-        </div>
       </div>
+        </div></div>
+      
     </div>
   </div>
 </section>
